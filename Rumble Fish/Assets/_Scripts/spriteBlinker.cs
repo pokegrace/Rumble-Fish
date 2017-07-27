@@ -6,14 +6,14 @@ using UnityEngine;
 // code from https://www.youtube.com/watch?v=1EJOYWBcrzQ
 public class spriteBlinker : MonoBehaviour {
 
-	public Sprite cursor;
+	public Sprite sprite;
 
 	float timer = 1f;
 	float delay = 1f;
 
 	void Start(){
 	
-		this.gameObject.GetComponent<SpriteRenderer> ().sprite = cursor;
+		this.gameObject.GetComponent<SpriteRenderer> ().sprite = sprite;
 		
 	}
 
@@ -27,11 +27,11 @@ public class spriteBlinker : MonoBehaviour {
 			// the following if statements will make the cursor blink every 1 second
 			if (this.gameObject.GetComponent<SpriteRenderer> ().sprite == null) 
 			{
-				this.gameObject.GetComponent<SpriteRenderer> ().sprite = cursor;
+				this.gameObject.GetComponent<SpriteRenderer> ().sprite = sprite;
 				timer = delay;
 				return;
 			}	
-			if (this.gameObject.GetComponent<SpriteRenderer> ().sprite == cursor) 
+			if (this.gameObject.GetComponent<SpriteRenderer> ().sprite == sprite) 
 			{
 				this.gameObject.GetComponent<SpriteRenderer> ().sprite = null;
 				timer = delay;

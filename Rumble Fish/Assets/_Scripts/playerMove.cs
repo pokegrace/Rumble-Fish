@@ -21,10 +21,9 @@ public class playerMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		bool playerCanMove = GameObject.Find ("EventSystem").GetComponent<tutorialManager> ().playerMoveEnable;
 
 		// if mouse is clicked
-		if (Input.GetMouseButtonDown (0) && playerCanMove) 
+		if (Input.GetMouseButtonDown (0)) 
 		{
 			// setting target to the current mouse position
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
