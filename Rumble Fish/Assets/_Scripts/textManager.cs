@@ -19,7 +19,6 @@ public class textManager : MonoBehaviour {
 
 	private bool isTyping = false;
 	private bool cancelTyping = false;
-	public bool playerMoveEnable = false;
 
 	public float typeSpeed; 
 
@@ -61,7 +60,6 @@ public class textManager : MonoBehaviour {
 				if (currentLine > endAtLine)
 				{
 					SceneManager.LoadScene (scene); // change this to changing dialogue box 
-					playerMoveEnable = true;
 				} 
 				else 
 				{ 

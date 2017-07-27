@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 679, y: 471}
-  m_MaxSize: {x: 14000, y: 14021}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 3728
+  controlID: 3763
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1202
     height: 771
-  m_MinSize: {x: 404, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3729
+  controlID: 3764
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 3618
+  controlID: 3739
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,9 +201,9 @@ MonoBehaviour:
     height: 445
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0493ffff
-    m_LastClickedID: -27900
-    m_ExpandedIDs: 0693ffff6e96ffffb2a0ffff6aa3ffff6aa5ffff02a8ffffc4c9fffff2c9ffffeacbffffeee5ffff2aeafffff2ebffff98ecffffe0edffff86eeffff32efffffd8effffff2f1ffff24f3ffff26f4ffffccf4ffff58f5ffffb0f7ffffdefbffff00000000e42500007c2b0000fc2b0000942c0000082d0000142d0000562d0000cc2d00005a2e0000882e0000942e0000f62e0000162f00005e3000006a300000ee300000
+    m_SelectedIDs: 3acfffff
+    m_LastClickedID: -12486
+    m_ExpandedIDs: fef8ffff34faffffdefbffff00000000ee2500008626000004270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -222,7 +222,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - tutorial2
+  - tutorial1
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -315,9 +315,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 25.981182
+    m_Target: 23.647505
     speed: 2
-    m_Value: 25.981182
+    m_Value: 23.647505
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -415,8 +415,8 @@ MonoBehaviour:
     y: 466
     width: 1202
     height: 305
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -460,18 +460,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scenes
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\pokeg\OneDrive\Documents\GitHub\Rumble Fish
+  m_LastProjectPath: C:\Users\pokeg\OneDrive\Documents\GitHub\Rumble-Fish\Rumble Fish
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee240000
-    m_LastClickedID: 9454
+    m_SelectedIDs: 72250000
+    m_LastClickedID: 9586
     m_ExpandedIDs: 00000000be24000002250000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -525,9 +525,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0493ffff
-    m_LastClickedInstanceID: -27900
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 3acfffff
+    m_LastClickedInstanceID: -12486
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: e8250000802c0000dc290000142b000076300000e6280000022a000044290000388afdff322b00007a24000076350000cc2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

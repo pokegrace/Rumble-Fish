@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class levelManager : MonoBehaviour {
 
 	public void loadTutorial(){
-		SceneManager.LoadScene ("tutorial1");
+		SceneManager.LoadScene ("intro");
 	}
 }

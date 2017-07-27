@@ -21,10 +21,10 @@ public class playerMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		// first argument: checking if mouse button is clicked
-		// second argument: finding the bool in textManager and making sure that the player can't move during text scene.
-		// if text scene is over, player can move
-		if (Input.GetMouseButtonDown (0) && GameObject.Find("TextManager").GetComponent<textManager>().playerMoveEnable) 
+		bool playerCanMove = GameObject.Find ("EventSystem").GetComponent<tutorialManager> ().playerMoveEnable;
+
+		// if mouse is clicked
+		if (Input.GetMouseButtonDown (0) && playerCanMove) 
 		{
 			// setting target to the current mouse position
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);

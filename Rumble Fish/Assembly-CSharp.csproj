@@ -51,10 +51,11 @@
      <Compile Include="Assets\_Scripts\playerMove.cs" />
      <Compile Include="Assets\_Scripts\playerPoint.cs" />
      <Compile Include="Assets\_Scripts\spawner.cs" />
+     <Compile Include="Assets\_Scripts\spriteBlinker.cs" />
      <Compile Include="Assets\_Scripts\textManager.cs" />
+     <Compile Include="Assets\_Scripts\tutorialManager.cs" />
      <None Include="Assets\Text\tutorial1.txt" />
      <None Include="Assets\Text\intro.txt" />
-     <None Include="Assets\Art Assets\Shaders\outline_diffuse.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
