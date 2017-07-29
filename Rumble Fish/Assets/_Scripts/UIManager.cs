@@ -10,14 +10,12 @@ public class UIManager : MonoBehaviour {
 	public GameObject panel;
 	public bool isPaused;
 	public Button myButton;
-	// this bool is to make sure tutorialManager doesn't open any dialogue boxes
-	public bool panelOpen;
 
+	public bool panelOpen = false;
 
 	// Use this for initialization
 	void Start () 
 	{
-		panelOpen = false;
 		isPaused = false;
 
 		// when button is clicked, then this panel will pop up

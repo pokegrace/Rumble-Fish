@@ -50,7 +50,7 @@ public class textManager : MonoBehaviour {
 	{
 
 		// whenever mouse button is pressed, move to next line
-		if (Input.GetMouseButtonDown(0)) 
+		if (Input.GetKeyDown("space")) 
 		{
 			if (!isTyping) {
 
