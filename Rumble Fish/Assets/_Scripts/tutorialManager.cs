@@ -6,12 +6,12 @@ using UnityEngine;
 public class tutorialManager : MonoBehaviour {
 
 	public GameObject[] textBox;
-	int j = 0;
+	int j = 1;
 
 	// Use this for initialization
 	void Start () 
 	{
-		
+		textBox [0].SetActive (true);
 	}
 	
 	// Update is called once per frame
@@ -22,13 +22,9 @@ public class tutorialManager : MonoBehaviour {
 
 		// if panel is open, don't take any actions. otherwise, continue
 		if (!panelOpen) {
-			// if the mouse is clicked and it's the first text box
-			if (Input.GetKeyDown ("space") && j == 0) {
-				textBox [j].SetActive (true);
-				j++;
-			}
-			// but if it's the second+ text box, then set the previous textbox to inactive
-			else if (Input.GetKeyDown ("space") && j != 0) {
+
+			// deactivate the first text box and activate the next
+			if (Input.GetKeyDown ("space") && j != 0) {
 				textBox [j - 1].SetActive (false);
 				textBox [j].SetActive (true);
 				j++;
